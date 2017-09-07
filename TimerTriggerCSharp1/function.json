@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */3 * * * *"
+    },
+    {
+      "type": "serviceBus",
+      "name": "outputSbMsg",
+      "queueName": "encompdedupedq",
+      "connection": "QueueTestBus_RootManageSharedAccessKey_SERVICEBUS",
+      "accessRights": "Manage",
+      "direction": "out"
+    }
+  ],
+  "disabled": true
+}

@@ -1,0 +1,10 @@
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+	    "System.Data.SqlClient" : "4.3.0",
+      "RestSharp" : "105.2.3"
+      }
+    }
+   }
+}

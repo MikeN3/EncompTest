@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "WindowsAzure.ServiceBus/4.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.ServiceBus.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.ServiceBus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WindowsAzure.ServiceBus/4.1.3": {
+      "sha512": "bXUY8S0krgpP+e0dhqmboopzYPa5w6h6/JJwj61NY040duQlwtK8LKzuYN2wdpZhmw6BR/OOtuwW6uIBJojg5Q==",
+      "type": "package",
+      "path": "windowsazure.servicebus/4.1.3",
+      "files": [
+        "content/app.config.install.xdt",
+        "content/web.config.install.xdt",
+        "lib/net45/Microsoft.ServiceBus.dll",
+        "lib/net45/Microsoft.ServiceBus.xml",
+        "windowsazure.servicebus.4.1.3.nupkg.sha512",
+        "windowsazure.servicebus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "WindowsAzure.ServiceBus >= 4.1.3"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}
