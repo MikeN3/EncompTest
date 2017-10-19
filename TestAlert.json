@@ -12,7 +12,7 @@
     }
   },
   "variables": {
-    "appInsName": "LendUsAI",
+    "appInsName": "LendUsAITest",
     "responseAlertName": "[concat('CountNumber-', toLower(variables('appInsName')))]"
   },
   "resources": [
